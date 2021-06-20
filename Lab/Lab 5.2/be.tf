@@ -7,6 +7,8 @@ nic web-nic
 vm web-vim01 
 */
 
+#This is test of push
+
 resource "azurerm_resource_group" "be-rg" {
   name     = "be-rg"
   location = "westeurope"
